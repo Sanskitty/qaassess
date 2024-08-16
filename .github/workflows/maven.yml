@@ -1,17 +1,11 @@
 name: Java CI with Maven Testing
 
 on:
-  workflow_dispatch:
-    inputs:
-      browsername:
-        type: string
-        description: 'browser name'
-        default: 'chrome'
      
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "main" ]
 
 jobs:
   build:
