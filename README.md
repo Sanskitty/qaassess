@@ -11,10 +11,10 @@
 ## How to run this project
 
 - Clone this project
-- Hit the following command into the terminal:
- ```mvn clean test```
-  mvn test - to run the execution of tests using pom.xml 
-
+- Hit the following command into the terminal: ```mvn clean test```
+- ```mvn test``` - to run the execution of tests using pom.xml
+- ```mvn test -Dsurefire.suiteXmlFiles=testng.xml``` - Parameterized maven command which executes testng file provided in maven command
+  
 ## Scenerio:
 
 - Login into SauceDemo site: https://www.saucedemo.com/
