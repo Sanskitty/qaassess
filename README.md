@@ -5,8 +5,9 @@
 - TestNG Framework
 - Java
 - Maven
-- Intellij idea/VSCode
+- VSCode
 - ExtentReports
+- Docker
 
 ## How to run this project
 
