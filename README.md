@@ -5,7 +5,7 @@
 - TestNG Framework
 - Java
 - Maven
-- Intellij idea/VSCode
+- VSCode
 - ExtentReports
 
 ## How to run this project
@@ -13,7 +13,9 @@
 - Clone this project
 - Hit the following command into the terminal:
  ```mvn clean test```
-  mvn test - to run the execution of tests using pom.xml 
+1)	mvn test - to run the execution of tests using pom.xml 
+2)	mvn test -Dsurefire.suiteXmlFiles=testng.xml - Parameterized maven command which executes testng file provided in maven command
+
 
 ## Scenerio:
 
