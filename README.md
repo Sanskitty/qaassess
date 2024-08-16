@@ -1,4 +1,18 @@
 # Web Automation on SauceDemo Website with Selenium TestNG
+I have designed this framework keeping in mind reusabalitiy of code.
+In my main folder,I have defined global config while test folder I have write my TestCases.
+I have used Extent Reprots in my reports folder, for logging we have used log4j and implemented TestNG framework.
+For build we are using Maven,we have defined all our dependencies and plugins required in our project in "pom.xml" file.
+For Data-Driven we can use Apache POI in our dependencies and a ReadExcelData.java file in our resources folder,while testdata in "xlsx" format can also be stored inside our project.
+Here in our project I ahve implemented KeyWord Driven approach,which takes data in Key-Value format.
+For removing redundancy from the code I have defined "WebElementsInteractions" class under generic keyword package in main file.
+AppConstant file will act as global property file.
+Base Test will act as parent class, to reduce redundancy.
+I ahve attached screenshots as well for failed test cases.
+Reports will help us to determine status of automation framework.
+Logging will help us for debugging.
+Docker is used for virtualization if we have to run on different remote machines and implement selenium grid and standalone feature.
+For version-control we have used Github and I have even implement Github Actions for complete integration.
 
 ## Technology used:
 - Selenium Webdriver
