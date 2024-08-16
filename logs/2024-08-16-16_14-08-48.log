@@ -1,0 +1,6 @@
+2024-08-16 14:08:48 [main] INFO  BaseTest:60 - Browser name is:chrome
+2024-08-16 14:08:52 [main] INFO  LoginPageTest:37 - Username is:locked_out_userpassword is:secret_sauce
+2024-08-16 14:08:52 [main] INFO  BaseTest:60 - Browser name is:chrome
+2024-08-16 14:08:53 [main] INFO  LoginPageTest:26 - Username is:standard_userpassword is:secret_sauce
+2024-08-16 14:08:53 [main] INFO  BaseTest:60 - Browser name is:chrome
+2024-08-16 14:09:00 [main] INFO  ProductPageTest:22 - Username is: performance_glitch_user and Password is: secret_sauce
